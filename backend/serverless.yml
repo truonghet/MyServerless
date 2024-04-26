@@ -1,4 +1,4 @@
-org: duongaity
+org: truonghet
 app: serverless-todo-app
 service: serverless-todo-app
 
@@ -21,7 +21,7 @@ provider:
   environment:
     TODOS_TABLE: Todos-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: serverless-todo-app-duongaity-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: serverless-todo-app-truonghet-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
 
   logs:
